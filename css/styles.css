@@ -1,0 +1,484 @@
+/*browser-sync start --server --directory --files "*"
+ */
+
+/*
+
+
+Centers Restaurant Name*/
+
+/*<!-- Sweet Ts Colors: 
+Pink: #E462A8;
+Teal: #5AEBDC;
+Yellow: #EDCC97;
+Fonts: Caslon No 540 D;
+Caslon No337
+/*Gets rid of default margin/padding in browser*/
+body {
+	/*background-color: #f1ede7; original tan color */
+	background-color: #000000; /*black*/
+
+
+}
+
+@font-face {
+	font-family: "Caslon";
+	src: url("OPTICaslonFive-Swash.otf");
+}
+
+#containerwithlogo {
+	text-align: center;
+	position: relative;
+	display: block;
+	background
+	
+	
+}
+
+#nav li a div {
+	color: #E462A8;
+	text-transform: none;
+	font-size: 25px;
+}
+/*Beginning of Navigation Bar*/
+
+#nav {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	list-style: none;
+	/*background-color: #fff;*/
+	
+}
+
+#nav li {
+	display: inline-block;
+
+}
+
+#nav li a {
+	display: inline-block;
+	padding: 5px 5px;
+	/*font-size: 18px;*/
+	text-decoration: none;
+	color: #EDCC97;
+	/*border-right: 1px solid #ccc;*/
+	text-transform: uppercase;
+
+}
+
+#nav li a:hover {
+	
+	background-color: #222;
+	border-radius: 3px;
+}
+
+
+/*Beginning of Image Gallery*/
+
+#slideshowimages {
+	/*width: auto;*/
+	max-height: 450px;
+	text-align: center;
+	display: block;
+	left: 0;
+	right: 0;
+
+}
+
+/*End of Image Gallery*/
+
+/*Beginning of Tiles*/
+
+#menu-tile, #specials-tile, #map-tile {
+	height: auto;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+    background-color: #fff;
+	
+}
+
+#tiletext {
+	border-width: 0;
+    border-style: solid;
+    background-color: #ffffff;
+    color: #000000;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*End of Tiles*/
+
+
+.fa {
+	font-size: 18px!important;
+	margin-left: 25px;
+}
+
+.panel-footer {
+	margin-top: 20px;
+	background-color: #EDCC97;
+	border-top: none;
+	/*color: #000000;*/
+	color: #000;
+
+
+}
+
+#testimonials p {
+	color: #000;
+}
+
+.img-responsive {
+	width: 100%;
+	margin-top: 20px;
+}
+
+/*
+Beginning of Menu Stylings*/
+
+#menubutton {
+	
+	position: fixed;
+	z-index: 1000;
+	margin-left: auto;
+}
+
+h1 {
+	color: #E462A8;
+	text-align: center;
+	display: block;
+}
+
+
+/*Styling for each section of the menu*/
+
+/* headlines with lines */
+.decorated{
+     overflow: hidden;
+     text-align: center;
+ }
+.decorated > span{
+    position: relative;
+    display: inline-block;
+    color: #E462A8;
+}
+.decorated > span:before, .decorated > span:after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    border-bottom: 2px solid#5AEBDC;
+    width: 591px; /* half of limiter*/
+    margin: 0 20px;
+}
+.decorated > span:before{
+    right: 100%;
+}
+.decorated > span:after{
+    left: 100%;
+}
+
+
+/*Menu Items and Description*/
+h3 {
+	color: #E462A8;
+}
+
+
+p {
+	color: #E462A8;
+	font-style: italic;
+
+
+}
+
+#prices {
+	float: right;
+	margin-top: 12px;
+	clear: right;
+	font-size: 18px;
+}
+
+
+
+#menu-details {
+	text-align: center;
+}
+
+#chile-relleno {
+	margin-left: 50px;
+	font-size: 1.1em;
+	clear: left;
+}
+
+#prices2 {
+	float: right;
+	margin-top: 7px;
+	clear: right;
+	font-size: 18px;
+}
+
+/*Dropdown menu button*/
+
+
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: 0px;
+  float: left;
+  outline: none;
+  color: black;
+  font-family: inherit;
+  margin: 0;
+  margin-bottom: 100px;
+  z-index: 10;
+  background-color: black;
+
+
+}
+
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #EDCC97;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  font-size: auto;
+  overflow-y: scroll;
+  height: 180px;
+
+
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  text-align: left;
+  display: block;
+ 
+
+
+
+}
+
+#myDropdown a:hover {
+	background-color: #5AEBDC;
+}
+
+#menubutton {
+	font-size: 25px;
+	background-color: #5AEBDC;
+}
+.glyphicon-cutlery {
+	color: #E462A8;
+	padding: 3px;
+}
+
+
+/*End of Menu Page*/
+/*End of Menu Stylings*/
+
+/*Beginning of Specials*/
+
+#specials {
+	display: block;
+	text-align: center;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#specialdescription{
+	text-align: center;
+}
+/*BEGINNING OF CONTACT FORM*/
+
+form {
+  margin-top: 50px;
+  /*transition: all 4s ease-in-out;*/
+
+}
+
+.form-control {
+  width: 350px;
+  display: block;
+  border: none;
+  outline: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  margin-bottom: 16px;
+}
+
+textarea.form-control {
+  max-height: 150px;
+  min-height: 150px;
+  max-width: 350px;
+  min-width: 350px;
+  padding: 6px 12px;
+  margin-right: 8px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+input {
+  height: 50px;
+  display: inline-block;
+  font-size: 18px;
+
+}
+
+form .submit {
+  background: #EDCC97;
+  border-color: transparent;
+  color: #222;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  height: 50px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+form .submit:hover {
+  background-color: #5AEBDC;
+}
+
+#phone { /* Phone number */
+	text-align: center;
+	display: block;
+	padding-bottom: 0;
+	text-decoration: none;
+	list-style: none;
+	font-size: 20px;
+	color: #000;
+
+}
+
+#fblink {
+	text-decoration: none;
+	color: #000;
+}
+
+#fblink:hover {
+	color: #2D582B;
+}
+
+/*END OF CONTACT FORM*/
+
+/*Extra Extra Small Devices (iPhones, around 375px, etc.)*/
+@media (min-width: 320px) { 
+
+
+#nav li {
+	display: inline-block;
+	margin-left: 1px;
+
+
+
+}
+#nav li a {
+		font-size: 8px;
+		
+
+
+	}
+	#nav li a img {
+		width: 120px;
+		height: 80px;
+
+		
+	}
+
+
+
+ }
+
+/*// Extra small devices (portrait phones, less than 646px)*/
+
+@media (min-width: 580px) {
+
+	#nav li a {
+		font-size: 12px;
+	}
+	#nav li a img {
+		width: 200px;
+		height: 100px;
+	}
+}
+/*// Small devices (landscape phones, 646px and up)*/
+@media  (min-width: 646px) {
+
+	#nav li a {
+	font-size: 14px;
+
+}
+
+#nav li a img {
+		width: 250px;
+		height: 130px;
+	}
+
+
+}
+
+
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+
+	#nav li a {
+	font-size: 18px;
+
+}
+
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { 
+
+
+ }
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
