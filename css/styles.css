@@ -9,7 +9,8 @@ Centers Restaurant Name*/
 /*<!-- Sweet Ts Colors: 
 Pink: #E462A8;
 Teal: #5AEBDC;
-Yellow: #EDCC97;
+Yellow: #EDCC97; From first picture
+Yellow: #FFFF00; From updated picture
 Fonts: Caslon No 540 D;
 Caslon No337
 /*Gets rid of default margin/padding in browser*/
@@ -25,20 +26,7 @@ body {
 	src: url("OPTICaslonFive-Swash.otf");
 }
 
-#containerwithlogo {
-	text-align: center;
-	position: relative;
-	display: block;
-	background
-	
-	
-}
 
-#nav li a div {
-	color: #E462A8;
-	text-transform: none;
-	font-size: 25px;
-}
 /*Beginning of Navigation Bar*/
 
 #nav {
@@ -60,7 +48,7 @@ body {
 	padding: 5px 5px;
 	/*font-size: 18px;*/
 	text-decoration: none;
-	color: #EDCC97;
+	color: #FFFF00;
 	/*border-right: 1px solid #ccc;*/
 	text-transform: uppercase;
 
@@ -98,7 +86,7 @@ body {
 	padding-bottom: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
-    background-color: #fff;
+    background-color: #5AEBDC;
 	
 }
 
@@ -125,7 +113,7 @@ body {
 
 .panel-footer {
 	margin-top: 20px;
-	background-color: #EDCC97;
+	background-color: #5AEBDC;
 	border-top: none;
 	/*color: #000000;*/
 	color: #000;
@@ -141,6 +129,11 @@ body {
 	width: 100%;
 	margin-top: 20px;
 }
+
+hr {
+	border-color: #E462A8;
+}
+
 
 /*
 Beginning of Menu Stylings*/
@@ -237,11 +230,9 @@ p {
   outline: none;
   color: black;
   font-family: inherit;
-  margin: 0;
-  margin-bottom: 100px;
+  margin-top: 10px;
   z-index: 10;
   background-color: black;
-
 
 }
 
@@ -250,7 +241,7 @@ p {
   display: none;
   position: fixed;
   background-color: #EDCC97;
-  min-width: 160px;
+  min-width: 50px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   font-size: auto;
@@ -268,9 +259,6 @@ p {
   text-align: left;
   display: block;
  
-
-
-
 }
 
 #myDropdown a:hover {
@@ -303,6 +291,14 @@ p {
 #specialdescription{
 	text-align: center;
 }
+
+/*End of specials*/
+
+/*Beginning of about page*/
+.jumbotron {
+	background-color: #FFFF00;;
+}
+/*End of about page*/
 /*BEGINNING OF CONTACT FORM*/
 
 form {
@@ -343,7 +339,7 @@ input {
 }
 
 form .submit {
-  background: #EDCC97;
+  background: #5AEBDC;
   border-color: transparent;
   color: #222;
   font-size: 20px;
@@ -366,19 +362,21 @@ form .submit:hover {
 	padding-bottom: 0;
 	text-decoration: none;
 	list-style: none;
-	font-size: 20px;
-	color: #000;
+	font-size: 30px;
+	color: #E462A8;
 
 }
 
 #fblink {
 	text-decoration: none;
-	color: #000;
+	color: #E462A8;
 }
 
 #fblink:hover {
-	color: #2D582B;
+	color: #FFFF00;
 }
+
+
 
 /*END OF CONTACT FORM*/
 
@@ -412,15 +410,30 @@ form .submit:hover {
 
 /*// Extra small devices (portrait phones, less than 646px)*/
 
-@media (min-width: 580px) {
+@media (min-width: 350px) {
 
 	#nav li a {
-		font-size: 12px;
+		font-size: 20px;
 	}
 	#nav li a img {
 		width: 200px;
 		height: 100px;
 	}
+
+	#containerwithlogo {
+	text-align: center;
+	position: relative;
+	display: block;
+	color: #E462A8;
+	text-transform: none;
+	font-size: 35px;
+	font-family: "Caslon";
+	letter-spacing: 3px;
+	margin-bottom: 5px;
+	margin-top: 25px;
+
+	
+}
 }
 /*// Small devices (landscape phones, 646px and up)*/
 @media  (min-width: 646px) {
@@ -459,6 +472,20 @@ form .submit:hover {
 
 /*// Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) { 
+
+	#containerwithlogo {
+	text-align: center;
+	position: relative;
+	display: block;
+	color: #E462A8;
+	text-transform: none;
+	font-size: 50px;
+	font-family: "Caslon";
+	letter-spacing: 3px;
+	margin-bottom: 5px;
+
+	
+}
 
 
  }
