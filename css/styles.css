@@ -65,7 +65,7 @@ body {
 
 #slideshowimages {
 	/*width: auto;*/
-	max-height: 450px;
+	max-height: 500px;
 	text-align: center;
 	display: block;
 	left: 0;
@@ -297,9 +297,13 @@ p {
 /*End of specials*/
 
 /*Beginning of about page*/
-.jumbotron {
+.container .jumbotron {
 	background-color: #FFFF00;
-	min-height: 500px;
+	min-height: 270px;
+	padding: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
 }
 /*End of about page*/
 /*BEGINNING OF CONTACT FORM*/
@@ -437,6 +441,11 @@ form .submit:hover {
 
 	
 }
+
+.container .jumbotron {
+	padding-bottom: 0px;
+}
+
 }
 /*// Small devices (landscape phones, 646px and up)*/
 @media  (min-width: 646px) {
@@ -450,7 +459,9 @@ form .submit:hover {
 		width: 250px;
 		height: 130px;
 	}
-
+.container .jumbotron {
+	padding-bottom: 0px;
+}
 
 }
 
