@@ -93,14 +93,13 @@ body {
 #tiletext {
 	border-width: 0;
     border-style: solid;
-    background-color: #ffffff;
+    background-color: #E462A8;
     color: #000000;
     padding-top: 5px;
     padding-bottom: 10px;
     text-align: center;
     text-transform: uppercase;
     font-size: 20px;
-    text-decoration: none;
 }
 
 /*End of Tiles*/
@@ -138,6 +137,9 @@ hr {
 /*
 Beginning of Menu Stylings*/
 
+#callahead {
+	font-size: 20px;
+}
 #menubutton {
 	
 	position: fixed;
@@ -296,7 +298,8 @@ p {
 
 /*Beginning of about page*/
 .jumbotron {
-	background-color: #FFFF00;;
+	background-color: #FFFF00;
+	min-height: 500px;
 }
 /*End of about page*/
 /*BEGINNING OF CONTACT FORM*/
