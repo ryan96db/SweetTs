@@ -299,7 +299,7 @@ p {
 /*Beginning of about page*/
 .container .jumbotron {
 	background-color: #FFFF00;
-	min-height: 270px;
+	min-height: 210px;
 	padding: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
@@ -410,6 +410,7 @@ form .submit:hover {
 
 		
 	}
+
 
 
 
