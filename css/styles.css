@@ -199,7 +199,7 @@ p {
 	float: right;
 	margin-top: 12px;
 	clear: right;
-	font-size: 18px;
+	font-size: 17.5px;
 }
 
 
@@ -242,7 +242,7 @@ p {
 .dropdown-content {
   display: none;
   position: fixed;
-  background-color: #EDCC97;
+  background-color: #FFFF00;
   min-width: 50px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
