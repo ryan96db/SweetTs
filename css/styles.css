@@ -164,7 +164,7 @@ h1 {
 .decorated > span{
     position: relative;
     display: inline-block;
-    color: #E462A8;
+    color: #5AEBDC;
 }
 .decorated > span:before, .decorated > span:after{
     content: '';
@@ -206,6 +206,7 @@ p {
 
 #menu-details {
 	text-align: center;
+	color: #5AEBDC;
 }
 
 #chile-relleno {
