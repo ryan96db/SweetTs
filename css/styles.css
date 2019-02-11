@@ -132,7 +132,10 @@ body {
 hr {
 	border-color: #E462A8;
 }
-
+/*About Page*/
+#aboutText {
+	text-align: center;
+}
 
 /*
 Beginning of Menu Stylings*/
