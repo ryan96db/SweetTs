@@ -1,7 +1,8 @@
 <?php
 
 	// If you are using Composer
-	require 'vendor/autoload.php';
+//    require 'vendor/autoload.php';
+    require("sendgrid-php/sendgrid-php.php");
 
 	if (isset($_POST['submit'])) {
 
