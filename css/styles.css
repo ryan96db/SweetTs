@@ -253,6 +253,7 @@ p {
   font-size: auto;
   overflow-y: scroll;
   height: 180px;
+  margin-top: -170px;
 
 
 }
@@ -286,16 +287,8 @@ p {
 
 /*Beginning of Specials*/
 
-#specials {
-	display: block;
-	text-align: center;
-	position: relative;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#specialdescription{
-	text-align: center;
+#Specials {
+	margin-bottom: 300px;
 }
 
 /*End of specials*/
@@ -415,6 +408,25 @@ form .submit:hover {
 		
 	}
 
+	.decorated > span {
+		font-size: 25px;
+	}
+
+	#prices {
+	float: right;
+	margin-top: 16px;
+	clear: right;
+	font-size: 16px;
+}
+
+#hamburgerprice {
+	float: right;
+	margin-top: 28px;
+	clear: right;
+	font-size: 16px;
+}
+
+
 
 
 
@@ -467,6 +479,10 @@ form .submit:hover {
 .container .jumbotron {
 	padding-bottom: 0px;
 }
+
+.decorated > span {
+		font-size: 30px;
+	}
 
 }
 
